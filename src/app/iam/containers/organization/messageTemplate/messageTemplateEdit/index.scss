@@ -1,0 +1,25 @@
+/** 2018/11/7
+*作者:高梦龙
+*
+*/
+.message-template {
+  .sidebar-content {
+    padding: 20px 24px;
+  }
+  .messageDesCallBack .ant-form-item-children:first-child:after{
+    position: absolute;
+    top: -17px;
+    left: 340px;
+  }
+  .message-template-content-tabs{
+    .ant-tabs-nav .ant-tabs-tab{
+      margin: 0 12px 0 0;
+    }
+    .ant-tabs-nav .ant-tabs-tab:last-child{
+      margin: 0;
+    }
+    .ant-tabs-nav-scroll{
+      text-align: center;
+    }
+  }
+}

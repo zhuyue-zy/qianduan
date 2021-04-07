@@ -1,0 +1,17 @@
+.callCenter-edit{
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row;
+  .callCenter-edit-style {
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: row;
+    margin-right: 100px;
+    .callCenter-edit-name {
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #313E59;
+      width: 70px;
+    }
+  }
+}

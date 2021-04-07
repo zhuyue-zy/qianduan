@@ -1,0 +1,50 @@
+.ant-input1{
+  height: 28px;
+  margin-left: 6px;
+}
+
+.ant-input2{
+  height: 27px;
+}
+.girdType{
+  display: inline-block;
+  font-size: 15px;
+  color: #818999;
+  height: 32px;
+  width: 80px;
+  margin-left: -1px;
+
+}
+
+.girdType1{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  height: 32px;
+  width: 80px;
+  margin-left: -1px;
+
+}
+
+.wf-approver-form{
+  padding: 21px;
+  table{
+    border-radius: 1px;
+  }
+  th,td{
+    padding: 10px 20px;
+    border: 1px solid #DCE1E6;
+    font-size: 12px;
+  }
+  th{
+    width: 114px;
+    font-weight: 500;
+    color: #3C4D73;
+    background-color: #F0F5FA;
+  }
+  td{
+    font-weight: 400;
+    color: #04173F;
+  }
+}

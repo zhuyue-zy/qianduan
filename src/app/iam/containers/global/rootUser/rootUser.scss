@@ -1,0 +1,18 @@
+.role-action{
+  padding: 20px 0 15px 0;
+  .ant-btn-flat{
+    /*    width:44px;
+        height:28px;*/
+    border-radius:4px;
+    border:1px solid rgba(172,179,191,1);
+    color: #818999;
+    margin-right: 10px;
+    //border: 1px solid;
+  }
+  .ant-btn-primary{
+    background: #2196F3;
+    border-radius:2px;
+    color: #FFFFFF;
+    border: none;
+  }
+}

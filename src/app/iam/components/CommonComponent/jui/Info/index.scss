@@ -1,0 +1,11 @@
+@import '../../../../containers/common/style/jclass.scss';
+
+.jinfo {
+  @include f12;
+
+  i.jinfo-icon {
+    @include iblock;
+    padding-right: 10px;
+    color: $hoverColor;
+  }
+}

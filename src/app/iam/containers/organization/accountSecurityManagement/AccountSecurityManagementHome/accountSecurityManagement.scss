@@ -1,0 +1,135 @@
+.AccountSecurityManagement{
+  .securitySetting{
+    .ant-input-group.ant-input-group-compact .ant-input{
+      text-align: center;
+    }
+  }
+
+  .accountSecurity_table{
+    margin-top: 16px;
+  }
+}
+
+.AccountSecurityManagement_Modal{
+  .ant-modal-content{
+    width: 413px;
+    margin: 0 auto;
+  }
+}
+
+.securitySettingModal{
+  width: 680px !important;
+  .ant-modal-header{
+    border-bottom: 1px solid #e8e8e8;
+    margin-left: -24px;
+    margin-top: -10px;
+    padding-left: 24px;
+    padding-bottom: 10px;
+    width: 680px;
+  }
+
+  .search-left {
+    padding-right: 25px;
+    padding-bottom: 20px;
+    flex: 1;
+    border-right: 1px solid #EBF0F5;
+    height: 100%;
+    .ant-input-wrapper {
+      margin-bottom: 12px;
+
+      .ant-input-suffix {
+        right: inherit;
+        left: 0;
+      }
+      .ant-input-rendered-wrapper{
+        margin-bottom: 5px;
+      }
+
+      .ant-input-rendered {
+        padding-left: 30px;
+
+        .ant-input-placeholder {
+          left: 30px;
+        }
+      }
+
+      .ant-btn-circle.ant-btn-sm {
+        margin-top: -10px;
+        color: #A3B1CC;
+      }
+    }
+  }
+
+  .left-main {
+    overflow: auto;
+    height: 380px;
+
+    .left-item {
+      border-bottom: 1px solid #EBF0F5;
+      display: flex;
+      padding: 10px 0;
+      margin-right: 10px;
+
+      .item-left {
+        flex: 1;
+
+        p {
+          margin-bottom: 2px;
+
+          span {
+            font-size: 14px;
+            color: #04173F;
+
+            &:first-child {
+              margin-right: 10px;
+            }
+          }
+
+          &:nth-child(2) {
+            font-size: 12px;
+            color: #3C4D73;
+          }
+        }
+      }
+
+      .item-right {
+        padding-top: 10px;
+        width: 30px;
+      }
+    }
+  }
+
+  .search-right {
+    padding-left: 25px;
+    flex: 1;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+    .right-top {
+      margin-bottom: 12px;
+      border-bottom: 1px solid #CCD3D9;
+      padding-bottom: 5px;
+      span {
+        &:nth-child(1) {
+          font-size: 14px;
+          color: #04173F;
+        }
+
+        &:nth-child(2) {
+          float: right;
+          font-size: 12px;
+          color: #3C4D73;
+          margin-right: 10px;
+
+          &::after {
+            display: block;
+            clear: both;
+            content: "";
+            visibility: hidden;
+            height: 0;
+          }
+        }
+      }
+    }
+  }
+}

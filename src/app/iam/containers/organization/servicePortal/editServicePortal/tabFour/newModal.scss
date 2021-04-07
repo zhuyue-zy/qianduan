@@ -1,0 +1,33 @@
+.tabFour_newModal{
+  .ant-modal-header{
+    padding: 12px 24px;
+    border-bottom: solid 1px #CCD3D9;
+  }
+  .ant-modal-content{
+    padding: 0;
+  }
+  .ant-modal-body{
+    padding: 0 24px;
+  }
+  .ant-modal-footer{
+    border-top: solid 1px #CCD3D9;
+    height: 57px;
+    padding-left: 24px;
+    padding-right: 24px;
+    button:last-child{
+      background: #1890FF;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #FFFFFF;
+      line-height: 22px;
+      margin-left: 10px;
+    }
+    button:first-child{
+      border: 1px solid #CCD3D9;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #818999;
+      line-height: 22px;
+    }
+  }
+}

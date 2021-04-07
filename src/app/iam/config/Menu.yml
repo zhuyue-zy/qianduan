@@ -1,0 +1,565 @@
+"workflow":
+  icon: gongzuoliu
+  sort: 5
+  organization:
+    - "backLog":
+        icon: wodedaibanshenpi
+        Routes: /iam/backLog
+        sort: 1
+        permission:
+          - 'yqcloud-workflow-service.current-work.getQueryResult'
+    - "launchProcess":
+        icon: wofaqideliucheng
+        Routes: /iam/launchProcess
+        sort: 2
+        permission:
+          - 'yqcloud-workflow-service.participate.getQueryResult'
+    - "takePartProcess":
+        icon: wocanyudeliucheng
+        Routes: /iam/takePartProcess
+        sort: 3
+        permission:
+          - 'yqcloud-workflow-service.participate.participationResult'
+    - "automaticTransfe":
+        icon: zidongzhuanjiaopeizhi
+        Routes: /iam/autoHome
+        sort: 4
+        permission:
+          - 'yqcloud-workflow-service.for-ward.queryMulti'
+
+# 租户配置
+"rentsetting":
+  icon: zuhushezhi-yijix
+  sort: 8
+  organization:
+    - "user":
+        icon: zhanghuguanli
+        Routes: /iam/user
+        sort: 2
+        permission:
+          - 'iam-service.organization-user.create'
+          - 'iam-service.organization-user.list'
+          - 'iam-service.organization-user.update'
+          - 'iam-service.organization-user.delete'
+          - 'iam-service.organization-user.disableUser'
+          - 'iam-service.organization-user.enableUser'
+          - 'iam-service.organization-user.unlock'
+    - "user2":
+        icon: zhanghuguanli
+        Routes: /iam/user
+        sort: 2
+        permission:
+          - 'iam-service.organization-user.create'
+          - 'iam-service.organization-user.list'
+          - 'iam-service.organization-user.update'
+          - 'iam-service.organization-user.delete'
+          - 'iam-service.organization-user.disableUser'
+          - 'iam-service.organization-user.enableUser'
+          - 'iam-service.organization-user.unlock'
+    - "employee":
+        icon: chengyuanguanli
+        Routes: /iam/employee
+        sort: 3
+        permission:
+          # - 'yqcloud-fnd-service.employee.queryEmployee'
+          # - 'yqcloud-fnd-service.employee.ableEmployee'
+          # - 'yqcloud-fnd-service.employee.checkCode'
+          # - 'yqcloud-fnd-service.employee.query'
+          - 'yqcloud-fnd-service.employee.importConfirm'
+    - "role-function-assignment":
+        icon: jiaoseguanli
+        Routes: /iam/roleAssign/organization
+        sort: 4
+        permission:
+          - 'iam-service.role.listPage'
+          - 'iam-service.role-function.createOrganizationRole'
+          - 'iam-service.role-function.update'
+          - 'iam-service.role.disableRole'
+          - 'iam-service.role.enableRole'
+        #  - "member-role-organization":
+        #  icon: zuhujiaosefenpei
+        # Routes: /iam/memberRole
+        # sort: 3
+        # permission:
+        #  - 'iam-service.role-member.createOrUpdateOnOrganizationLevel'
+        # - 'iam-service.role-member.deleteOnOrganizationLevel'
+        # - 'iam-service.role-member.listRolesWithUserCountOnOrganizationLevel'
+        # - 'iam-service.role-member.pagingQueryUsersByRoleIdOnOrganizationLevel'
+        # - 'iam-service.role-member.pagingQueryUsersWithOrganizationLevelRoles'
+        # - "password-policy":
+        # icon: mimacelve
+        # Routes: /iam/password-policy
+        # sort: 4
+        #permission:
+        #- 'iam-service.password-policy.create'
+        #- 'iam-service.password-policy.queryByOrganizationId'
+        #- 'iam-service.password-policy.update'
+    - "organization-management":
+        icon: zuzhiguanli
+        Routes: /iam/organization-management
+        sort: 5
+        permission:
+          - 'yqcloud-fnd-service.organization.delete'
+          - 'yqcloud-fnd-service.organization.hello'
+          - 'yqcloud-fnd-service.organization.insert'
+          - 'yqcloud-fnd-service.organization.queryByIAM'
+          - 'yqcloud-fnd-service.organization.queryALL'
+          - 'yqcloud-fnd-service.organization.queryOrgUnitList'
+          - 'yqcloud-fnd-service.organization.disableOrganization'
+          - 'yqcloud-fnd-service.organization.enableOrganization'
+    - "position-management":
+        icon: knlk
+        Routes: /iam/position-management
+        sort: 6
+        permission:
+          - 'yqcloud-fnd-service.position.pagingQuery'
+          - 'yqcloud-fnd-service.position.disable'
+          - 'yqcloud-fnd-service.position.enable'
+          - 'yqcloud-fnd-service.position.deletePositions'
+          - 'yqcloud-fnd-service.position.updatePosition'
+    - "capabilityTag":
+        icon: nenglibiaoqianguanli
+        Routes: /iam/capabilityTag
+        sort: 7
+        permission:
+          - 'yqcloud-fnd-service.ability-label-category.page'
+          - 'yqcloud-fnd-service.ability-label.page'
+    - "memberCapability":
+        icon: chengyuannenglibiaoqian
+        Routes: /iam/memberCapability
+        sort: 8
+        permission:
+          - 'yqcloud-fnd-service.ability-label.EmployeePage'
+    - "valuegroup":
+        icon: zhijiweihu-iconx
+        Routes: /iam/valueGroup
+        sort: 9
+        permission:
+          - 'yqcloud-fnd-service.flex-value-sets.query'
+    - "lookup":
+        icon: kuaimaweihu
+        Routes: /iam/lookup
+        sort: 10
+        permission:
+          - 'yqcloud-fnd-service.lookup-type.create'
+          - 'yqcloud-fnd-service.lookup-value.delete'
+          - 'yqcloud-fnd-service.lookup-type.update'
+          - 'yqcloud-fnd-service.lookup-type.pagingQuery'
+          - 'yqcloud-fnd-service.lookup-type.enable'
+          - 'yqcloud-fnd-service.lookup-type.disable'
+    - "descriptionMaintain":
+        icon: miaoshuweihu-iconx
+        Routes: /iam/DesMaintain
+        sort: 11
+        permission:
+          - 'yqcloud-fnd-service.prompts.query'
+    - "companyManagement":
+        icon: gongsiguanli
+        Routes: /iam/companyManagement
+        sort: 12
+        permission:
+          - 'yqcloud-fnd-service.company.queryCompany'
+          - 'yqcloud-fnd-service.company.query'
+          - 'yqcloud-fnd-service.company.enable'
+          - 'yqcloud-fnd-service.company.save'
+          - 'yqcloud-fnd-service.company.submit'
+    - "calendar":
+        icon: gongzuorili
+        Routes: /iam/calendar
+        sort: 13
+        permission:
+          - 'yqcloud-fnd-service.calendars.query'
+          - 'yqcloud-fnd-service.calendars.save'
+          - 'yqcloud-fnd-service.calendars.submit'
+          - 'yqcloud-fnd-service.calendars.ableWeekTime'
+          - 'yqcloud-fnd-service.calendars.updateWeekend'
+          - 'yqcloud-fnd-service.calendars.queryCalendars'
+          - 'yqcloud-fnd-service.calendars-date.save'
+    - "announcement":
+        icon: gonggaoguanli
+        Routes: /iam/announcement
+        sort: 14
+        permission:
+          - 'yqcloud-portal-service.announcement.selectList'
+          - 'yqcloud-portal-service.announcement.publishAnnouncement'
+          - 'yqcloud-portal-service.announcement.deleteAnUnenableAnnouncement'
+          - 'yqcloud-portal-service.announcement.editAnnouncement'
+          - 'yqcloud-portal-service.announcement.addAnnouncement'
+    - "descriptionMaintain":
+        icon: miaoshuweihu-iconx
+        Routes: /iam/DesMaintain
+        sort: 14
+        permission:
+          - 'yqcloud-fnd-service.prompts.query'
+    - "messageTemplate":
+        icon:
+        Routes: /iam/messageTemplate
+        sort: 15
+        permission:
+          - 'yqcloud-message-service.setup-template.select'
+    - "businessParam":
+        icon:
+        Routes: /iam/businessParam
+        sort: 16
+        permission:
+          - 'yqcloud-message-service.setup-parameter.pageQuery'
+    - "messageMonitoring":
+        icon:
+        Routes: /iam/messageMonitoring
+        sort: 17
+        permission:
+          - 'yqcloud-message-service.message.query'
+    - "accountConfiguration":
+        icon:
+        Routes: /iam/accountConfiguration
+        sort: 18
+        permission:
+          - 'yqcloud-message-service.config.query'
+    - "apiManagement":
+        icon:
+        Routes: /iam/apiManagement
+        sort: 29
+        permission:
+          - 'yqcloud-public-api-service.open-api-token.selectList'
+    - "portalManagement":
+        icon: menhuguanli
+        Routes: /iam/portal
+        sort: 20
+        permission:
+          - 'yqcloud-itsm-service.portal.save'
+    - "encodingRules":
+        icon: xulieguizeguanli
+        Routes: /iam/encodingRules
+        sort: 21
+        permission:
+          - 'yqcloud-coderule-service.code-rule-header.queryMulti'
+    - "settingWechat":
+        icon: LDAPguanli
+        Routes: /iam/settingWechat
+        sort: 23
+        permission:
+          - 'yqcloud-wechat-service.we-chat-config.query'
+    - "approvalWorkflow":
+        icon:
+        Routes: /iam/approvalWorkflow
+        sort: 24
+        permission:
+          - 'yqcloud-workflow-service.model-ext.query'
+    - "processMonitoring":
+        icon:
+        Routes: /iam/processMonitoring
+        sort: 25
+        permission:
+          - 'yqcloud-workflow-service.process-monitor.queryAllProcessInstances'
+    - "workFlowTest":
+        icon:
+        Routes: /iam/workFlowTest
+        sort: 26
+        permission:
+          - 'yqcloud-workflow-service.model-ext.testEngine'
+    - "tenantTime":
+        icon: dingshirenwuguanli
+        Routes: /iam/tenantTime
+        sort: 27
+        permission:
+          - 'yqcloud-scheduler-server.task-info.pagingQuery'
+    - "tenantOrganization":
+        icon: manage_organization
+        Routes: /iam/tenantOrganization
+        sort: 28
+        permission:
+          - 'iam-service.organization.queryOrgBy'
+    - "tenantApiCallManagement":
+        icon:
+        Routes: /iam/tenantApiCallManagement
+        sort: 30
+        permission:
+          - 'yqcloud-public-api-service.open-api-call-log.openApiCallLogByOrganization'
+    - "accountSecurityManagement":
+        icon: zhanghuanquanguanli
+        Routes: /iam/accountSecurityManagement
+        sort: 29
+        permission:
+          - 'iam-service.sso-saml-config.queryConfig'
+          - 'iam-service.sso-saml-config.insertAndUpdateConfig'
+          - 'iam-service.ldap.queryByOrgId'
+          - 'iam-service.password-policy.queryByOrganizationId'
+    - "structure":
+        icon: zhanghuguanli
+        Routes: /iam/structure
+        sort: 31
+        permission:
+          - 'yqcloud-itsm-service.application-system.queryStructure'
+          - 'yqcloud-itsm-service.application-system.pageQueryStructure'
+          - 'yqcloud-itsm-service.application-system.saveStructure'
+          - 'yqcloud-itsm-service.application-system.updateStructure'
+    - "customer":
+        icon: zhanghuguanli
+        Routes: /iam/customer
+        sort: 32
+        permission:
+          - 'yqcloud-itsm-service.customer.query'
+          - 'yqcloud-itsm-service.customer.queryCustomerPage'
+          - 'yqcloud-itsm-service.customer.insertCustomer'
+          - 'yqcloud-itsm-service.customer.updateCustomer'   
+          
+
+# 门户配置
+"portal": # 此处为最外层的模块服务字段
+  icon: layout-surface # 服务的图标
+  sort: 14
+  organization:
+    - "servicePortal":
+        icon: layout-surface
+        Routes: /iam/servicePortals
+        sort: 1
+        permission:
+          - 'tchirk-user-portal-service.portal-info.queryPortalList'
+          - 'tchirk-user-portal-service.portal-info.createPortalInfo'
+
+# 服务管理配置
+"itsm": # 此处为最外层的模块服务字段
+  icon: fuwuguanlipeizhi # 服务的图标
+  sort: 9
+  organization:
+    - "partnerProject":
+        icon: hezuohuobanguanli
+        Routes: /iam/partnerProject
+        sort: 16
+        permission:
+          - 'yqcloud-fnd-service.partner.query'
+# 项目设置
+#"prosetting":
+#  icon: IAM
+#  sort: 6
+#  project:
+#  - "member-role-project":
+#      icon: person_add
+#      Routes: /iam/memberRole
+#      sort: 1
+#      permission:
+#      - 'iam-service.role-member.deleteOnProjectLevel'
+#      - 'iam-service.role-member.listRolesWithUserCountOnProjectLevel'
+#      - 'iam-service.role-member.pagingQueryUsersByRoleIdOnProjectLevel'
+#      - 'iam-service.role-member.pagingQueryUsersWithProjectLevelRoles'
+#  - "proManage":
+#      icon: settings_applications
+#      Routes: /iam/proManage
+#      sort: 2
+#      permission:
+#      - 'iam-service.project.disableProject'
+#      - 'iam-service.project.query'
+#      - 'iam-service.project.update'
+
+# 个人中心
+"usercenter":
+  icon: userx
+  sort: 1
+  user:
+    - "user-info":
+        icon: ure
+        Routes: /iam/userinfo
+        sort: 1
+        permission:
+          - 'iam-service.user.queryInfo'
+          - 'iam-service.user.updateInfo'
+          - 'iam-service.user.uploadPhoto'
+          - 'iam-service.user.querySelf'
+    - "password":
+        icon: fuibc
+        Routes: /iam/usermodifyPwd
+        sort: 2
+        permission:
+          - 'iam-service.user.selfUpdatePassword'
+    - "organization-info":
+        icon: hybaj
+        Routes: /iam/organizationinfo
+        sort: 3
+        permission:
+          - 'iam-service.user.pagingQueryOrganizationAndRolesById'
+    - "msgReceiveSetting":
+        icon: ianaj
+        Routes: /iam/msgReceiveSetting
+        sort: 5
+        permission:
+          - 'yqcloud-message-service.setup-receive.query'
+# 平台设置
+"iam":
+  icon: IAM
+  sort: 1
+  site:
+    - "organization":
+        icon: manage_organization
+        Routes: /iam/organization
+        sort: 1
+        permission:
+          - 'iam-service.organization.list'
+          - 'organization-service.organization.create'
+          - 'iam-service.organization.check'
+          - 'iam-service.organization.query'
+          - 'iam-service.organization.update'
+          - 'iam-service.organization.disableOrganization'
+          - 'iam-service.organization.enableOrganization'
+    - "permission":
+        icon: brightness_high
+        Routes: /iam/permission
+        sort: 2
+        permission:
+          - 'iam-service.permission.queryAll'
+          - 'iam-service.permission.update'
+    - "menu-management":
+        icon: view_list
+        Routes: /iam/menuTree
+        sort: 3
+        permission:
+          - 'iam-service.menu.create'
+          - 'iam-service.menu.saveListTree'
+          - 'iam-service.menu.query'
+          - 'iam-service.menu.update'
+          - 'iam-service.menu.delete'
+    - "role-function-management":
+        icon: person_add
+        Routes: /iam/roleManag
+        sort: 10
+        permission:
+          - 'iam-service.site-function.selectFunctionByNeed'
+          - 'iam-service.site-function.selectLeafFunction'
+    - "role-function-assignment":
+        icon: person_add
+        Routes: /iam/roleAssign/site
+        sort: 6
+        permission:
+          - 'iam-service.role-function.createOrganizationRole'
+          - 'iam-service.role.listPageSite'
+          - 'iam-service.role-function.update'
+          - 'iam-service.role.disableRole'
+          - 'iam-service.role.enableRole'
+    - "member-role-global":
+        icon: person_add
+        Routes: /iam/memberRole
+        sort: 7
+        permission:
+          - 'iam-service.role-member.createOrUpdateOnSiteLevel'
+          - 'iam-service.role-member.deleteOnSiteLevel'
+          - 'iam-service.role-member.pagingQueryUsersByRoleIdOnSiteLevel'
+          - 'iam-service.role-member.listRolesWithUserCountOnSiteLevel'
+          - 'iam-service.role-member.pagingQueryUsersWithSiteLevelRoles'
+    - "root-user":
+        icon: root
+        Routes: /iam/rootuser
+        sort: 8
+        permission:
+          - 'iam-service.user.pagingQueryAdminUsers'
+          - 'iam-service.user.addDefaultUsers'
+          - 'iam-service.user.deleteDefaultUser'
+    - "valuegroup":
+        icon: version
+        Routes: /iam/valueGroup
+        sort: 13
+        permission:
+          - 'yqcloud-fnd-service.flex-value-sets.querySite'
+    - "lookup":
+        icon: version
+        Routes: /iam/lookup
+        sort: 14
+        permission:
+          - 'iam-service.organization-lookup.create'
+          - 'iam-service.organization-lookup.delete'
+          - 'iam-service.organization-lookup.update'
+          - 'iam-service.organization-lookup.query'
+          - 'iam-service.organization-lookup.enableLookup'
+          - 'iam-service.organization-lookup.disableLookup'
+    - "message":
+        icon: library_books
+        Routes: /iam/message
+        sort: 15
+        permission:
+          - 'iam-service.organization-message.create'
+          - 'iam-service.organization-message.delete'
+          - 'iam-service.organization-message.update'
+          - 'iam-service.organization-message.query'
+          - 'iam-service.organization-message.enableMessage'
+          - 'iam-service.organization-message.disableMessage'
+    - "descriptionMaintain":
+        icon: language
+        Routes: /iam/DesMaintain
+        sort: 16
+        permission:
+          - 'yqcloud-fnd-service.prompts.querySite'
+    - "mailConfiguration":
+        icon: youjianzhanghupeizhiyoujianzhanghupeizhi-icon
+        Routes: /iam/mailConfiguration
+        sort: 17
+        permission:
+          - 'yqcloud-message-service.config.query'
+    - "defaultRole":
+        icon: person_outline
+        Routes: /iam/defaultRole
+        sort: 7
+        permission:
+          - 'iam-service.permission.queryDefaultList'
+          - 'iam-service.permission.queryDefault'
+          - 'iam-service.permission.deleteDefaultPermission'
+          - 'iam-service.permission.updateDefaultPermission'
+    - "function-permission":
+        icon: person_outline
+        Routes: /iam/funpermission
+        sort: 5
+        permission:
+          - 'iam-service.function-permission.getFunctionPermission'
+    - "announce":
+        icon: gonggaoguanli
+        Routes: /iam/announce/site
+        sort: 8
+        permission:
+          - 'yqcloud-portal-service.announcement-site.selectList'
+    - "apiConfiguration":
+        icon:
+        Routes: /iam/apiConfiguration
+        sort: 22
+        permission:
+          - 'iam-service.organization-open-api.allApiList'
+    - "timedTask":
+        icon: dingshirenwuguanli
+        Routes: /iam/timedTask
+        sort: 19
+        permission:
+          - 'yqcloud-scheduler-server.job.add'
+          - 'yqcloud-scheduler-server.job.update'
+          - 'yqcloud-scheduler-server.job.pagingQuery'
+          - 'yqcloud-scheduler-server.job.remove'
+          - 'yqcloud-scheduler-server.job-log.queryList'
+          - 'yqcloud-scheduler-server.job-log.queryListByJobId'
+          - 'yqcloud-scheduler-server.job.query'
+          - 'yqcloud-scheduler-server.job-log.query'
+    - "platFormTimer":
+        icon: dingshirenwufenpei
+        Routes: /iam/platFormTimer
+        sort: 20
+        permission:
+          - 'yqcloud-scheduler-server.task-info-site.pagingQuery'
+          - 'iam-service.organization-open-api.allApiList'
+    - "messageParamList":
+        icon: xiaoxicanshuliebiao
+        Routes: /iam/messageParamList
+        sort: 21
+        permission:
+          - 'yqcloud-message-service.setup-parameter.pageQuery'
+    - "apiCallManagement":
+        icon:
+        Routes: /iam/apiCallManagement
+        sort: 23
+        permission:
+          - 'yqcloud-public-api-service.open-api-call-log.openApiCallLogList'
+    - "internalCallback":
+        icon: liuchengpeizhi
+        Routes: /iam/internalCallback
+        sort: 24
+        permission:
+          - 'iam-service.organization-api.create'
+    - "callCenter":
+        icon: hujiaozhongxin
+        Routes: /iam/callCenter
+        sort: 25
+        permission:
+          - 'yqcloud-im-manage-service.i-call-config.getPageConfigs'

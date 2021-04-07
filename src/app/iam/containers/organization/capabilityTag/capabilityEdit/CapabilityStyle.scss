@@ -1,0 +1,159 @@
+.ant-type{
+  border-radius: 2px;
+  padding: 1px 8px;
+  height: 25px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  color: #04173F;
+  border-color: #43acff !important;
+
+}
+
+.label-tooltip-content{
+  border-radius: 2px;
+  padding: 1px 8px;
+  margin: 2px;
+  height: 25px;
+  margin-left: 10px;
+  color: #04173F;
+  border-color: #43acff !important;
+}
+
+.label-tooltip{
+  .ant-tooltip-arrow{
+    border-left-color: rgba(255,255,255,0.9);
+  }
+  .ant-tooltip-inner{
+    background: #ffffff;
+    color: #3C4D73;
+    padding: 4px 10px;
+    box-shadow:0px -2px 13px 0px rgba(129,137,153,0.42);
+  }
+  .create-content-tooltip{
+    cursor: pointer;
+    div{
+      padding: 4px 0;
+      text-align: center;
+      &:hover{
+        color: #2196F3;
+      }
+    }
+  }
+}
+
+.capability-content{
+  .ant-modal-content{
+    .ant-modal-header {
+      border-bottom: 1px solid #ACB3BF;
+      width: 519px;
+      padding-left: 23px;
+      padding-bottom: 10px;
+      margin-top: -10px;
+      margin-left: -24px;
+      border-bottom: 1px solid #e8e8e8;
+      .ant-modal-title {
+        font-size: 18px;
+      }
+    }
+    .ant-modal-body{
+      margin: 20px;
+      .ant-card-head{
+        height: 38.5px;
+        min-height: 38px;
+        padding: 0 20px;
+        .ant-card-head-wrapper{
+          height: 38.5px;
+        }
+        .ant-card-head-title{
+          padding: 16px 0 10.5px 0;
+          font-family: PingFangSC-Regular;
+          font-size: 12px;
+          color: #04173F;
+          text-align: left;
+          line-height: 12px;
+        }
+        .ant-card-extra{
+          padding: 16px 0 10.5px 0;
+          font-size: 12px;
+          line-height: 12px;
+          .edit-member-extra-checkbox{
+            display: inline-block;
+            .ant-checkbox-wrapper{
+              .ant-checkbox{
+                display: none;
+              }
+              span{
+                &:nth-of-type(2){
+                  padding-right: 20px;
+                  font-family: PingFangSC-Regular;
+                  font-size: 12px;
+                  color: #2196F3;
+                  text-align: left;
+                  line-height: 12px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .ant-card-body{
+        padding: 30px 30px 4px 30px;
+        max-height: 210px;
+        overflow: scroll;
+        .checkbox-content{
+          .ant-checkbox-group-wrapper{
+            width: 100%;
+            .ant-checkbox-group{
+              .ant-row{
+                //margin-bottom: 22px;
+                .ant-col-12{
+                  margin-bottom: 22px;
+                  .ant-checkbox-wrapper{
+                    span{
+                      font-size: 12px;
+                      color: #3C4D73;
+                      letter-spacing: -0.1px;
+                      text-align: left;
+                      line-height: 12px;
+                      &:nth-of-type(2){
+                        padding-right: 10px;
+                        padding-left: 10px;
+                      }
+                    }
+                  }
+                }
+              }
+              .ant-checkbox-group-item{
+                margin-right: 35px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ant-modal-footer{
+      border-top: 1px solid #ACB3BF;
+      width: 519px;
+      padding-left: 23px;
+      padding-top: 15px;
+      margin-left: -24px;
+      border-top: 1px solid #e8e8e8;
+    }
+    .ant-modal-close{
+      margin-top: 0px;
+    }
+  }
+  .ant-divider-horizontal{
+    width: 519px;
+    margin-left: -24px;
+  }
+}
+.checkbox-content{
+  .ant-checkbox-group-wrapper{
+    .ant-checkbox-group{
+      .ant-checkbox-group-item{
+         display: inline-block;
+      }
+    }
+  }
+}

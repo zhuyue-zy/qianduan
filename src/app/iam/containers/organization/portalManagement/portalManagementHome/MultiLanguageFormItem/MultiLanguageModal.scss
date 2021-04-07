@@ -1,0 +1,54 @@
+.itsm-language-modal{
+  td{
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .ant-table-column-has-filters {
+    white-space: nowrap;
+  }
+  .ant-modal-close{
+    top: 12px;
+  }
+
+  .ant-modal-content {
+    padding: 0;
+    padding-bottom: 24px;
+    .ant-modal-header {
+      .ant-modal-title {
+        padding: 24px 24px 15px 24px;
+      }
+    }
+
+    .ant-modal-body {
+      padding: 30px;
+      padding-bottom: 20px;
+      border-top: rgb(234, 240, 244) solid 1px;
+      border-bottom: rgb(234, 240, 244) solid 1px;
+
+      .ant-table-thead > tr > th {
+        color: #818999;
+
+        .ant-checkbox-checked .ant-checkbox-inner, .ant-checkbox-indeterminate .ant-checkbox-inner {
+          background-color: #108EE9;
+          border-color: #108EE9;
+        }
+      }
+
+      .ant-table-tbody {
+        .ant-checkbox-checked .ant-checkbox-inner {
+          background-color: #108EE9;
+          border-color: #108EE9;
+        }
+      }
+    }
+
+    .ant-modal-footer {
+      padding: 12px 24px 12px 24px;
+      .ant-btn-primary {
+        background-color: rgb(33, 150, 243);;
+      }
+    }
+  }
+}

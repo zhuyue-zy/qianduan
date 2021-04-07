@@ -1,0 +1,204 @@
+@import '../../../common/style/jclass.scss';
+
+.page-portal {
+
+  // switch样式重写
+  .ant-switch-checked {
+    background: $hoverColor;
+
+    &::after {
+      background: white;
+    }
+  }
+
+  @include f14;
+
+  .info,
+  .upload {
+    width: 570px;
+    margin-right: 6px;
+
+    .img-wrap {
+      width: 240px;
+      height: 48px;
+      margin: 17px 0 14px;
+      border-radius: 3px;
+      position: relative;
+      overflow: hidden;
+
+      img {
+        @include iblock;
+        width: 100%;
+        height: 100%;
+      }
+
+      .img-reset-bar {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 24px;
+        z-index: 999;
+        width: 100%;
+        background: rgba(60, 77, 115, 0.69);
+
+        &:hover {
+          background: rgba(60, 77, 115, 0.3);
+        }
+      }
+    }
+
+  }
+
+  .info-item {
+    position: relative;
+    margin-top: 20px;
+    min-height: 30px;
+
+    input {
+      font-size: 14px;
+    }
+  }
+
+  .label-box {
+    min-width: 36px;
+
+    .info-item {
+      width: 100%;
+
+      &-label {
+        @include iblock;
+        @include tj;
+        @include ell;
+        width: 100%;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .jselector {
+    position: relative;
+    width: 130px;
+    border-bottom: 1px solid black;
+
+    &-checked {
+      border-bottom: 1px solid $hoverColor;
+    }
+
+    input {
+      outline: none;
+      border: none;
+      background: none;
+      width: 115px;
+      padding: 0 5px;
+    }
+
+    &-arrow {
+      @include iblock;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4.4px solid black
+    }
+
+    &-value-box {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      background: white;
+      font-size: 12px;
+      box-shadow: 0 2px 8px 0 #ddd;
+      padding: 0 10px;
+      width: 306px;
+      z-index: 99;
+      overflow: hidden;
+
+      .jselector-scroll-hide-wrap {
+        padding-right: 10px;
+        max-height: 300px;
+        overflow: auto;
+        width: 326px;
+      }
+
+      .jselector-option-item {
+        padding: 5px;
+        margin: 2px 0;
+        @include jflex;
+        @include pointer;
+        color: '#04173F';
+
+        span {
+          @include iblock;
+          @include ell;
+        }
+
+        &-checked {
+          color: $hoverColor;
+        }
+
+        &:hover {
+          color: orange;
+        }
+      }
+    }
+  }
+
+  .jselector.jselector-disabled {
+    border-color: #939393;
+    color: #939393;
+
+    &:hover {
+      cursor: not-allowed;
+    }
+
+    input:hover {
+      cursor: not-allowed;
+
+    }
+
+    .jselector-arrow {
+      @include iblock;
+      border-top: 4.4px solid #939393;
+    }
+  }
+
+  .project-icon {
+    width: 22px;
+    height: 22px;
+    border: 0.5px dashed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 2px;
+
+    &-checked,
+    &:hover {
+      color: $hoverColor;
+      background: #E4F2FD;
+      border: 0.5px solid #E4F2FD;
+    }
+  }
+}
+
+
+.ant-popover-inner-content .project-icon {
+  width: 22px;
+  height: 22px;
+  border: 0.5px dashed;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 2px;
+
+  &:hover {
+    color: $hoverColor;
+    background: #E4F2FD;
+    border: 0.5px solid #E4F2FD;
+  }
+}

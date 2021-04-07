@@ -1,0 +1,28 @@
+.hidden {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+.btn-multi-language_Form {
+  margin-left:  unset !important;
+  margin-top: unset !important;
+  left: -18px;
+  top: 8px;
+  position: relative !important;
+  cursor: pointer;
+}
+.btn-multi-language_placeholder_Form{
+  margin-left:  -17px;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-multi-language_Table {
+  margin-left:  -20px;
+  margin-top: 3px;
+  position: absolute;
+  cursor: pointer;
+}

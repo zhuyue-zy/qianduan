@@ -1,0 +1,10 @@
+.sidebar-content{
+  .ant-modal-body{
+    font-size: 100%;
+    padding: 24px;
+    position: relative;
+    height: 625px;
+    overflow: auto;
+    max-height: calc(100% - 121px) !important;
+  }
+}

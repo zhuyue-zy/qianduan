@@ -1,0 +1,118 @@
+
+.service_knowledge{
+  .ant-table-tbody {
+    .ant-table-row:nth-of-type(1){
+      td{
+        border-top: 1px solid #dce1e6;
+      }
+    }
+  }
+}
+
+.knowledge_service_modal{
+  .ant-modal-header{
+    padding-bottom: 15px;
+  }
+  .ant-modal-content{
+    padding: 0 !important;
+  }
+  .ant-modal-body{
+    padding: 24px;
+  }
+  .ant-modal-header{
+    border-bottom: 1px solid #dce1e6;
+    padding: 24px;
+  }
+  .formInputSou_newModal{
+    display: inline-block;
+    margin-bottom: 16px;
+    input{
+      border: 1px solid #c3cad9;
+      border-radius: 4px;
+      height: 32px;
+      padding: 0 30px;
+      width: 300px;
+    }
+    .input_icon{
+      position: relative;
+      color: #69758c;
+      width: 0;
+      height: 0;
+      top: -8px;
+      right: -11px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+  .PROCESSING{
+    padding: 3px 8px;
+    height: 18px;
+    background:rgba(255,149,0,1);
+    border-radius:2px;
+    font-size:12px;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+  }
+  .REJECTED{
+    padding: 3px 8px;
+    height: 18px;
+    background:rgba(245,35,46,1);
+    border-radius:2px;
+    font-size:12px;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+  }
+  .RELEASED{
+    padding: 3px 8px;
+    height: 18px;
+    background:rgba(123,201,90,1);
+    border-radius:2px;
+    font-size:12px;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+  }
+  .INVALID{
+    padding: 3px 8px;
+    height: 18px;
+    background:rgba(160,173,204,1);
+    border-radius:2px;
+    font-size:12px;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+  }
+  .CHANGE{
+    padding: 3px 8px;
+    height: 18px;
+    background:#FF9500;
+    border-radius:2px;
+    font-size:12px;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+  }
+
+  .ant-modal-footer{
+    border-top: solid 1px #CCD3D9;
+    height: 57px;
+    button:last-child{
+      background: #1890FF;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #FFFFFF;
+      line-height: 22px;
+      margin-right: 15px;
+      margin-left: 10px;
+    }
+    button:first-child{
+      border: 1px solid #CCD3D9;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #818999;
+      line-height: 22px;
+    }
+  }
+}

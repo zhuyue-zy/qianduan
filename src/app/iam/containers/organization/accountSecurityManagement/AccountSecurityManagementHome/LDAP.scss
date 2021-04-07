@@ -1,0 +1,27 @@
+.LDAP_AS{
+  .ant-form-vertical .ant-form-item{
+    padding-bottom: 0;
+  }
+  .Icon_span{
+    width: 13px;
+    height: 13px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .Icon_span_dele{
+    width: 13px;
+    height: 13px;
+    color:#e8e8e8;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .Icon_span:hover{
+    cursor:pointer;
+    background: #e6e6e6;
+  }
+  .Icon_span_dele:hover{
+    color: #f4f4f4;
+    cursor:pointer;
+    background: #e6e6e6;
+  }
+}

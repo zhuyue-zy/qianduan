@@ -1,0 +1,9 @@
+@import '../../../../containers/common/style/jclass.scss';
+
+.jtitle-bar {
+  &-text {
+    @include iblock;
+    padding-right: 20px;
+    max-width: 300px;
+  }
+}

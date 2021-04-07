@@ -1,0 +1,235 @@
+.yqcloud-role{
+  padding: 20px 28px;
+  font-weight:400;
+  color: #04173f;
+  line-height:20px;
+  display: flex;
+  flex-flow: column;
+  .yqcloud-title{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .ant-tree{
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: #04173f;
+  }
+  .ant-tree::-webkit-scrollbar{
+    width: 4px;
+  }
+  .ant-tree::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+  }
+  .ant-form-item{
+    margin-bottom: 20px;
+  }
+  .ant-form-item-with-help{
+    margin-bottom: 0
+  }
+  .ant-input-wrapper{
+    margin-bottom: -10px;
+  }
+  .ant-input{
+    color: #04173f;
+  }
+  .ant-btn-circle{
+    color: #818899;
+  }
+  .ant-form-explain{
+    margin-top: 10px;
+  }
+  .ant-input-underline{
+    color: #CCD3D9;
+    border-bottom-color: #CCD3D9
+  }
+  .ant-input-focus.ant-input-underline{
+    color: #2196F3;
+    border-bottom-color: #2196F3
+  }
+  .role-action{
+    padding: 20px 0 15px 0;
+    .ant-btn-flat{
+      border-radius:4px;
+      border:1px solid rgba(172,179,191,1);
+      color: #818999;
+      margin-right: 10px;
+    }
+    .ant-btn-primary{
+      background: #2196F3;
+      border-radius:2px;
+      color: #fff;
+      border: none;
+    }
+  }
+}
+
+.role-card,.yqcloud-role-view,.yqcloud-role-form{
+  border: 1px solid #E1E9F0;
+  padding: 20px;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.yqcloud-role-form,
+.yqcloud-role-view{
+  .ant-modal-content{
+    border-radius: 4px;
+  }
+  .role-item{
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 30px;
+    .role-item-permissions {
+      height: 385px;
+      overflow: scroll;
+      div {
+        color: #818999;
+        flex: 1;
+        margin-left: 10px;
+        line-height:18px;
+        font-weight:500;
+        height: 36px;
+      }
+    }
+    span:first-child{
+      color: #818999;
+      display: inline-block;
+      width: 48px;
+    }
+    span:last-child{
+      flex: 1;
+      margin-left: 10px;
+      line-height:18px;
+      font-weight:500;
+    }
+  }
+  .ant-radio-wrapper{
+    color: #818999;
+  }
+  .ant-radio-wrapper-checked{
+    color: #2196F3;
+  }
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #2196F3;
+    background-clip: content-box;
+    background-color: #2196F3;
+    padding: 2px;
+  }
+  .ant-btn-flat{
+    color: #818999;
+    margin-right: 20px;
+    border: 1px solid;
+  }
+  .ant-btn-primary{
+    background: #2196F3;
+    border-radius:2px;
+    color: #fff;
+    border: none;
+  }
+}
+
+.icon-role{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 700px;
+  i{
+    font-size: 2.5em;
+    color: #818999;
+  }
+}
+
+.yqcloud-role .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background-color: #EEF7FE;
+  color: #2196F3;
+  width: 100%;
+}
+.yqcloud-role .ant-tree li .ant-tree-node-content-wrapper {
+  color: #04173f;
+  padding: 0 5px;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin: 0;
+  cursor: default;
+  height: 28px;
+}
+.ant-tree li span.ant-tree-switcher, .ant-tree li span.ant-tree-iconEle {
+  float: left;
+}
+.yqcloud-role .ant-card-head {
+  background: #f7f7f7;
+  margin-bottom: -1px;
+  padding: 0 12px;
+}
+
+.yqcloud-role-item i {
+  float: right;
+  margin-top: 6px;
+  margin-right: 20px;
+  font-size: 18px;
+  height: 16px;
+}
+
+.yqcloud-role i:hover {
+  color: #2196F3;
+  transition: all .5s;
+}
+
+.yqcloud-role li.ant-tree-treenode-disabled > .ant-tree-node-content-wrapper {
+  background: #F5F5F5;
+  transition: all 0.3s ease;
+  width: calc(100% - 24px);
+}
+
+li.ant-tree-treenode-disabled > .ant-tree-node-content-wrapper:hover {
+  background-color: #e5e5e5;
+}
+
+.yqcloud-role .ant-tree li span[draggable], .ant-tree li span[draggable="true"] {
+  border: none;
+}
+
+.yqcloud-role .ant-tree li span.ant-tree-checkbox {
+  margin: 4px 4px 0 2px;
+}
+
+.previewCard {
+  margin-left: 80px;
+  height: 400px;
+  width: 600px;
+  .ant-col-12 {
+    margin: 25px 0;
+  }
+}
+
+.yqcloud-create-btn {
+  margin-left: 30px;
+  border: none;
+  height: 28px;
+  line-height: 28px;
+  color: #2196F3;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.yqcloud-create-btn.ant-btn[disabled] {
+  background-color: transparent;
+  border: none;
+  color: #bdbdbd;
+}
+
+.no-data-classify {
+  position: relative;
+  padding: 5px 16px;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(0,0,0,.45);
+  z-index: 1;
+}

@@ -1,0 +1,45 @@
+@import '../../../../containers/common/style/jclass.scss';
+
+.jadd-btn-upload {
+  display: inline-block;
+  position: relative;
+  width: 208px;
+  height: 46px;
+  border: 1px dashed #CCD3D9;
+  border-radius: 3px;
+
+  @mixin addBtn {
+    content: '';
+    position: absolute;
+    background: #CCD3D9;
+    top: 50%;
+    left: 50%;
+    border-radius: 1px
+  }
+
+  &:before {
+    @include addBtn;
+    margin: -1px -12px;
+    width: 24px;
+    height: 2px;
+  }
+
+  &:after {
+    @include addBtn;
+    margin: -12px -1px;
+    height: 24px;
+    width: 2px;
+  }
+
+  &:hover {
+    border-color: $hoverColor;
+
+    &::before {
+      background: $hoverColor;
+    }
+
+    &::after {
+      background: $hoverColor;
+    }
+  }
+}

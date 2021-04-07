@@ -1,0 +1,38 @@
+.ant-table-tbody-new-set-1{
+  width: 700px;
+  border: none;
+}.ant-table-tbody-new-set-2{
+  width: 700px;
+  border: none;
+}.ant-table-tbody-new-set-3{
+  width: 700px;
+  border: none;
+}
+
+.ant-table-tbody-new-set-1 tr td {
+  border: none;
+}
+.ant-table-tbody-new-set-2 tr td {
+  border: none;
+}
+.ant-table-tbody-new-set-3 tr td {
+  border: none;
+}
+
+
+.zheShiYiGe .ant-checkbox-inner:after{
+  content: ' ';
+  position: absolute!important;
+   left: 2px!important;
+   top: 5px!important;
+   width: 9px!important;
+   height: 0px!important;
+}
+.zheShiYiGe .ant-checkbox-checked .ant-checkbox-inner:after{
+  content: ' ';
+  position: absolute!important;
+   left: 2px!important;
+   top: -1px!important;
+   width: 6px!important;
+   height: 11px!important;
+}

@@ -1,0 +1,76 @@
+//@import "~antd/lib/style/themes/default.less";
+
+@mixin textOverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  white-space: nowrap;
+}
+
+.taskBody {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  border-radius: 2px;
+  min-height: 196px;
+  .avatar {
+    display: inline-block;
+    width: 50%;
+    padding-right: 35px;
+    .img-avatar {
+      width: 122px;
+      height: 126px;
+      background-color: #EBEFF3;
+      border-radius: 4px;
+      padding: 9px 4px;
+    }
+  }
+  .meta {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 21px;
+    .title {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.98);
+      margin-bottom: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .description {
+      max-height: 100px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 5;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .ant-table td {
+    white-space: nowrap;
+  }
+
+}
+
+.MyTaskTable1 .ant-table{
+  height: 180px;
+}
+
+.MyTaskTable2 .ant-table{
+  height: 180px;
+}
+
+.MyTaskTable1 .ant-table td {
+  white-space: nowrap;
+}
+
+.MyTaskTable2 .ant-table td {
+  white-space: nowrap;
+}
+
+.MyTasksCard .ant-pagination{
+  width:375px
+}

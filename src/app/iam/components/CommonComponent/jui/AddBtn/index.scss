@@ -1,0 +1,17 @@
+@import '../../../../containers/common/style/jclass.scss';
+
+
+.jadd-btn {
+
+  &:hover {
+    .jadd-btn-label {
+      color: $hoverColor;
+      text-decoration: underline;
+    }
+  }
+
+  .jadd-btn-icon {
+    color: $hoverColor;
+    margin-right: 5px;
+  }
+}

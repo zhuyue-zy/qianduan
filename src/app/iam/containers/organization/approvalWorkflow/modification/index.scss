@@ -1,0 +1,330 @@
+.header{
+  .page-head-title{
+    //width: 170px;
+    width: 100%;
+  }
+}
+
+.modification-content{
+  .add-approval{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .delete-approval{
+    width: 160px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .approval-rule{
+    margin-top: -5px;
+    margin-left: 0;
+    .ant-timeline-item-head-blue{
+      border-color: #2196F3;
+      color: #2196F3;
+    }
+    .ant-timeline-item-content{
+      padding-left: 95px;
+      width: 440px;
+      padding-top: 5px;
+      margin-left: 25px;
+      .add-delete{
+        display: none;
+        .queue-div{
+          display:grid;
+          .queue{
+            -webkit-background-image: url('icon/add-node.svg');
+            -moz-background-image: url('icon/add-node.svg');
+            -o-background-image: url('icon/add-node.svg');
+            background-image: url('icon/add-node.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self:end;
+          }
+        }
+        .queue-div-one{
+          display:grid;
+          .queue{
+            -webkit-background-image: url('icon/add-node.svg');
+            -moz-background-image: url('icon/add-node.svg');
+            -o-background-image: url('icon/add-node.svg');
+            background-image: url('icon/add-node.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self:end;
+          }
+        }
+        .delete-forever-div{
+          display:grid;
+          .delete-forever{
+            -webkit-background-image: url('icon/delete-node.svg');
+            -moz-background-image: url('icon/delete-node.svg');
+            -o-background-image: url('icon/delete-node.svg');
+            background-image: url('icon/delete-node.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self:end;
+          }
+        }
+      }
+    }
+
+    .ant-timeline-item-content:hover{
+      -webkit-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+      -o-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+      -moz-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+      box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+      border-radius:10px;
+      .add-delete {
+        visibility:visible;
+        margin-left: 310px;
+        display: grid;
+        position: absolute;
+        color: #2196F3;
+        height: 100%;
+        background-color: #E4F2FD;
+        width: 36px;
+        text-align: center;
+        top: calc(0%);
+        border-top-right-radius:10px;
+        border-bottom-right-radius:10px;
+        .queue-div:hover{
+          background-color: #2196F3;
+          border-top-right-radius:10px;
+          vertical-align:middle;
+          display:grid;
+          .queue{
+            -webkit-background-image: url('icon/add-node-hover.svg');
+            -moz-background-image: url('icon/add-node-hover.svg');
+            -o-background-image: url('icon/add-node-hover.svg');
+            background-image: url('icon/add-node-hover.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self: end;
+
+          }
+        }
+        .queue-div-one:hover{
+          background-color: #2196F3;
+          border-top-right-radius:10px;
+          border-bottom-right-radius:10px;
+          vertical-align:middle;
+          display:grid;
+          .queue{
+            -webkit-background-image: url('icon/add-node-hover.svg');
+            -moz-background-image: url('icon/add-node-hover.svg');
+            -o-background-image: url('icon/add-node-hover.svg');
+            background-image: url('icon/add-node-hover.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self: end;
+          }
+        }
+        .delete-forever-div:hover{
+          background-color: #2196F3;
+          border-bottom-right-radius:10px;
+          display:grid;
+          .delete-forever{
+            -webkit-background-image: url('icon/delete-node-hover.svg');
+            -moz-background-image: url('icon/delete-node-hover.svg');
+            -o-background-image: url('icon/delete-node-hover.svg');
+            background-image: url('icon/delete-node-hover.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self:end;
+          }
+        }
+      }
+    }
+
+
+    .ant-timeline-item-content:hover{
+      -webkit-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+      -o-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+      -moz-box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+      box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+      border-radius:10px;
+      .add-delete {
+        visibility:visible;
+        margin-left: 310px;
+        display: grid;
+        position: absolute;
+        color: #2196F3;
+        height: 100%;
+        background-color: #E4F2FD;
+        width: 36px;
+        text-align: center;
+        top: calc(0%);
+        border-top-right-radius:10px;
+        border-bottom-right-radius:10px;
+        .queue-div-1{
+          background-color: #2196F3;
+          border-top-right-radius:10px;
+          vertical-align:middle;
+          display:grid;
+          .queue{
+            -webkit-background-image: url('icon/add-node-hover.svg');
+            -moz-background-image: url('icon/add-node-hover.svg');
+            -o-background-image: url('icon/add-node-hover.svg');
+            background-image: url('icon/add-node-hover.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self: end;
+
+          }
+        }
+        .queue-div-one-1{
+          background-color: #2196F3;
+          border-top-right-radius:10px;
+          border-bottom-right-radius:10px;
+          vertical-align:middle;
+          display:grid;
+          .queue{
+            -webkit-background-image: url('icon/add-node-hover.svg');
+            -moz-background-image: url('icon/add-node-hover.svg');
+            -o-background-image: url('icon/add-node-hover.svg');
+            background-image: url('icon/add-node-hover.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self: end;
+          }
+        }
+        .delete-forever-div:hover{
+          background-color: #2196F3;
+          border-bottom-right-radius:10px;
+          display:grid;
+          .delete-forever{
+            -webkit-background-image: url('icon/delete-node-hover.svg');
+            -moz-background-image: url('icon/delete-node-hover.svg');
+            -o-background-image: url('icon/delete-node-hover.svg');
+            background-image: url('icon/delete-node-hover.svg');
+            height: 50%;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            margin-left: 9px;
+            align-self:end;
+          }
+        }
+      }
+    }
+
+
+
+    .form-position{
+      .modification-node{
+        background-color:#fff;
+        width: 60px;
+        height: 60px;
+        border: 2px solid #999999;
+        -webkit-transform:translate(-150%, 117%) ;
+        transform: translate(-150%, 117%);
+      }
+      button#one:focus{
+        background-color:#fff;
+        color: #2196f3;
+        width: 60px;
+        height: 60px;
+        border: 2px solid #2196f3;
+        -webkit-transform:translate(-150%, 117%) ;
+        transform: translate(-150%, 117%);
+      }
+      .process{
+        position: relative;
+        display: inline-block;
+        margin-bottom: 3px;
+        margin-left: -65px;
+        width: 190px;
+        .ant-form-explain{
+          color: #d50000;
+        }
+      }
+      .approval-rule-code{
+        margin-left: -65px;
+      }
+      .category{
+        display: flex;
+        margin-left: -65px;
+        .ant-form-explain{
+          color: #d50000;
+          margin-top: 2px;
+        }
+        .control-point {
+          color: #1492e6;
+          margin-left: 16px;
+          position: absolute;
+          top: calc(59% - 7px);
+          z-index: 999;
+        }
+        .control-points{
+          color: #1492e6;
+          margin-left: 0;
+          position: absolute;
+          top: calc(59% - 7px);
+          z-index: 999;
+        }
+        .circle-outline{
+          -webkit-background-image: url('icon/delete-staff.svg');
+          -moz-background-image: url('icon/delete-staff.svg');
+          -o-background-image: url('icon/delete-staff.svg');
+          background-image: url('icon/delete-staff.svg');
+          height: 100%;
+          background-repeat: no-repeat;
+          background-size: auto 17px;
+          position: absolute;
+          top: 2px;
+          right: -47px;
+          width: 30px;
+        }
+        .circle-outlines {
+          -webkit-background-image: url('icon/delete-staff.svg');
+          -moz-background-image: url('icon/delete-staff.svg');
+          -o-background-image: url('icon/delete-staff.svg');
+          background-image: url('icon/delete-staff.svg');
+          height: 100%;
+          background-repeat: no-repeat;
+          background-size: auto 17px;
+          position: absolute;
+          top: 26px;
+          right: 140px;
+          width: 30px;
+        }
+        .ant-col-offset-1 {
+          margin-left: 0;
+          top: -5px;
+        }
+        .ant-col-offset-2 {
+          margin-left: 0;
+        }
+        .ant-col-20 {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 150px;
+          height: 59px;
+        }
+      }
+    }
+  }
+  .keep{
+    background-color: #2196f3;
+  }
+  .retrun-keep{
+    background-color:#fff;
+    color: #2196f3;
+  }
+}

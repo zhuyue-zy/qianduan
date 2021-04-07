@@ -1,0 +1,58 @@
+.choerodon-role {
+  .choerodon-loading {
+    display: inherit;
+    margin: 200px auto;
+    text-align: center;
+  }
+
+  .choerodon-pagination {
+    margin-top: 15px;
+    float: right;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+}
+
+.tableName:hover {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.content-nothave-defaultRole-hint{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 26px;
+  // color: red;
+  margin-top: 100px;
+  // border: solid 1px red;
+}
+.role-action{
+  padding: 20px 0 15px 0;
+  .ant-btn-flat{
+    /*    width:44px;
+        height:28px;*/
+    border-radius:4px;
+    border:1px solid rgba(172,179,191,1);
+    color: #818999;
+    margin-right: 10px;
+    //border: 1px solid;
+  }
+  .ant-btn-primary{
+    background: #2196F3;
+    border-radius:2px;
+    color: #FFFFFF;
+    border: none;
+  }
+}
+
+
+
+

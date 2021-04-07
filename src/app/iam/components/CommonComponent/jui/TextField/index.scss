@@ -1,0 +1,25 @@
+@import '../../../../containers/common/style/jclass.scss';
+
+
+.jtext-field {
+  position: relative;
+
+  &-message {
+    position: absolute;
+    height: 20px;
+    bottom: -20px;
+    left: 0px;
+    color: red;
+    font-size: 12px;
+  }
+}
+
+.jtext-field-error {
+  .ant-input-underline {
+    border-color: red;
+
+    .ant-input-ripple {
+      border-color: red;
+    }
+  }
+}

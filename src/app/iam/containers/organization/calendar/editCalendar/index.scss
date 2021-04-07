@@ -1,0 +1,172 @@
+/**
+ * Create By liuchuan on 2018/9/17.
+ */
+.choerodon-calendarEA {
+  .sidebar-content {
+    padding: 20px 24px;
+  }
+  .choerodon-pagination {
+    margin-top: 10px;
+    float: right;
+  }
+
+  .choerodon-link-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .choerodon-error {
+    position: relative;
+    left: 5rem;
+    color: red;
+    font-size: 12px;
+  }
+
+  .choerodon-btn-create {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .flex-vCenter {
+    display: flex;
+    align-items: center;
+  }
+
+  .flex-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mt-md {
+    margin-top: 2rem;
+  }
+
+  .mt-sm {
+    margin-top: 1rem;
+  }
+
+  .mt-xs {
+    margin-top: 0.5rem;
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .events {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ant-form-item {
+    height: 68px;
+    margin-bottom: 10px;
+  }
+
+  form .ant-select{
+    //margin-bottom: 20px;
+  }
+
+  //checkbox样式
+  .checkbox {
+    padding-top: 10px;
+  }
+
+  //日历样式
+  .calendar-single {
+    .events .ant-badge-status {
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
+      text-overflow: ellipsis;
+      font-size: 12px;
+    }
+
+    .notes-month {
+      text-align: center;
+      font-size: 28px;
+    }
+
+    .notes-month section {
+      font-size: 28px;
+    }
+
+    .ant-fullcalendar-header {
+      display: none;
+    }
+
+    .ant-fullcalendar-cell {
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .ant-fullcalendar-disabled-cell {
+      cursor: not-allowed;
+    }
+
+    table {
+      height: 190px;
+      display: table-row;
+      .ant-fullcalendar-date {
+        height: 25px;
+        width: 25px;
+      }
+
+      .cell-working-day {
+        color: #2196F3;
+      }
+
+      .cell-no-working-day {
+        color: red;
+        background-color: rgb(252, 233, 229);
+        border-radius: 4px;
+      }
+
+      .cell-disable-day {
+        color: rgba(0, 0, 0, .25);
+      }
+    }
+
+  }
+
+  //工作时间样式
+  .working-day {
+    margin-top: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 4px;
+    height: 48px;
+    padding: 10px 25px;
+    color: #3f51b5;
+    .working-day-font1 {
+      margin: 0 10px 0 30px;
+    }
+    .working-day-font2 {
+      margin: 0 10px;
+    }
+    .working-day-font3 {
+      margin: 0 10px 0 50px;
+    }
+    .working-day-font4 {
+      margin: 0 10px;
+    }
+    .working-day-font5 {
+      margin-left: 25px;
+      cursor: pointer;
+    }
+  }
+}
+
+.addPermission {
+  color: #3f51b5;
+}
+

@@ -1,0 +1,154 @@
+.page_servicePortal{
+  .service_table_title{
+    cursor:pointer;
+  }
+  .service_table_title:hover{
+    color: #2196F3;
+  }
+  .formInputSou{
+    display: inline-block;
+    input{
+      border: 1px solid #c3cad9;
+      border-radius: 4px;
+      height: 32px;
+      padding: 0 30px;
+      width: 300px;
+    }
+    .input_icon{
+      position: relative;
+      color: #69758c;
+      width: 0;
+      height: 0;
+      top: -8px;
+      right: -11px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+
+  .formNew{
+    position: absolute;
+    right: 100px;
+  }
+  .formChoice{
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    .formChoice_select{
+      margin-top: 4px;
+      background: #FFF;
+      box-shadow: 0 2px 18px 0 rgba(122, 133, 153, 0.5) ;
+      padding: 8px 0;
+      border-radius: 2px;
+      p{
+        margin: 0;
+        font-size: 14px;
+        padding: 5px 16px;
+        cursor:pointer;
+      }
+      p:hover{
+        background: #e4f2fd;
+      }
+    }
+  }
+  .invalid_span{
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-left:5px;
+    display: inline-block;
+    width:52px;
+    height:22px;
+    border:1px solid rgba(218,223,232,1);
+    color:rgba(105,117,140,1);
+    font-size:12px;
+    text-align: center;
+    line-height: 16px;
+    vertical-align: bottom;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-align: start;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    -webkit-line-clamp: 1;
+  }
+  .typeCodeData_span{
+    padding: 0 8px;
+    border-radius: 2px;
+    color: #fff;
+    margin-left:5px;
+    //display: inline-block;
+    width:64px;
+    height:22px;
+    font-size:12px;
+    line-height: 22px;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-align: start;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    -webkit-line-clamp: 1;
+    vertical-align: top;
+  }
+}
+
+.service_modal{
+
+  .ant-col-12 .ant-form-explain{
+    margin-left: 0;
+  }
+  .portalName_service{
+    .ant-form-item-children:after{
+      margin-top: -26px;
+      right: -285px;
+    }
+  }
+  .ant-modal-content{
+    padding-top: 5px !important;
+  }
+  .service_logoUpload{
+
+  }
+  .service_logoUpload:before {
+    margin: -1px -12px;
+    width: 24px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background: #ccd3d9;
+    top: 50%;
+    left: 50%;
+    border-radius: 1px;
+  }
+  .service_logoUpload:after {
+    margin: -12px -1px;
+    height: 24px;
+    width: 2px;
+    content: "";
+    position: absolute;
+    background: #ccd3d9;
+    top: 50%;
+    left: 50%;
+    border-radius: 1px;
+  }
+  .ant-modal-footer{
+    border-top: solid 1px #CCD3D9;
+    button:last-child{
+      background: #2196F3;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #FFFFFF;
+      line-height: 22px;
+    }
+    button:first-child{
+      border: 1px solid #CCD3D9;
+      border-radius: 4px;
+      font-size: 14px;
+      color: #818999;
+      line-height: 22px;
+      margin-left: 10px;
+    }
+  }
+}
+

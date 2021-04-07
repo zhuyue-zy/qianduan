@@ -1,0 +1,56 @@
+.callCenter-header{
+  height: 32px;
+  margin-bottom: 12px;
+  margin-left: -15px;
+  &-titlebox{
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+  }
+  &-title{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #04173F;
+    line-height: 24px;
+  }
+  &-box-group{
+    float: right;
+  }
+  &-searchbox{
+    i{
+      position: relative;
+      color: #D8DFE6;
+      right: -25px;
+    }
+    &-input{
+      border: 1px solid #D8DFE6;
+      border-radius: 4px;
+      height: 32px;
+      padding: 0 30px;
+      min-width: 300px;
+      //color: #D8DFE6;
+
+      &::-webkit-input-placeholder { /* WebKit browsers */
+        color: #D8DFE6;
+      }
+      &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: #D8DFE6;
+      }
+      &::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: #D8DFE6;
+      }
+      &:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: #D8DFE6;
+      }
+
+    }
+  }
+}
+.sidebar-modal{
+  .ant-modal-content{
+     left: 850px;
+     width: calc(100% - 850px) !important;
+  }
+
+
+}

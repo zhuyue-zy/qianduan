@@ -1,0 +1,64 @@
+.headerBtn{
+  .icon{
+    font-size: 18px;
+  }
+  span{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: rgba(0,0,0,0.85);
+    text-align: left;
+  }
+}
+
+.title{
+  margin-bottom: 24px;
+  .h2{
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: rgba(0,0,0,0.85);
+    text-align: left;
+    padding-left: 7px;
+    border-left: 2px solid #2196F3;
+  }
+
+  .description{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: rgba(0,0,0,0.45);
+    text-align: left;
+    line-height: 20px;
+    padding-left: 9px;
+    margin-top: 4px;
+  }
+}
+
+.ssoForm{
+  width: 486px;
+  margin: 0 9px;
+  box-sizing: border-box;
+
+  .required::after{
+    display: inline-block;
+    margin-left: 4px;
+    content: "*";
+    font-family: SimSun;
+    line-height: 1;
+    font-size: 12px;
+    color: #d50000;
+  }
+  
+  .textArea{
+    border: 1px solid rgba(0,0,0,0.09);
+    border-radius: 2px;
+    padding: 10px;
+  }
+
+  // SSO地址的提示信息
+  .urlDirection{
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: rgba(0,0,0,0.45);
+    text-align: left;
+    line-height: 20px;
+  }
+}
